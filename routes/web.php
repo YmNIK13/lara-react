@@ -16,3 +16,14 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/post/add', function () {
+    return view('welcome');
+});
+Route::get('/posts', function () {
+    return view('welcome');
+});
+
+Route::get('/post/{id}/edit', function () {
+    return view('welcome');
+});

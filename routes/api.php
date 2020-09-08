@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\Api\ExampleController;
+use App\Http\Controllers\Api\PostController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -17,3 +19,14 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+
+Route::get('/test', [ExampleController::class, 'index']);
+
+Route::post('/post/save', [PostController::class, 'add']);
+Route::post('/post/update', [PostController::class, 'update']);
+Route::get('/post/{id}', [PostController::class, 'getPost']);
+
+Route::get('/post/{id}/delete', [PostController::class, 'delete']);
+
+Route::get('/posts', [PostController::class, 'getPosts']);
