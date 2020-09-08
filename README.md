@@ -7,6 +7,10 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
+## Учебный проект по совместному использованию Laravel c ReactJs
+
+[![Основное видео](http://img.youtube.com/vi/AzEBitO2uSQ/0.jpg)](https://www.youtube.com/watch?v=AzEBitO2uSQ&list=PLF29BwJQYZdZ0ZUkpJWlDWiRzz0uNxTax&index=1 "Основное видео") 
+
 ## Первоначальная настройка React
 
 В 7-й Laravel и выше, функционал по генерированию фронта 
